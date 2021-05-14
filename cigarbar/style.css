@@ -1,0 +1,95 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("./images/barlounge2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.nav-links {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: underline;
+  padding: 20px;
+}
+
+.nav-links ul {
+  margin: 0;
+
+}
+
+
+.container .content {
+  font-size: 17px;
+  font-family: Arial;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 100px;
+
+}
+
+.footer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+#window {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#slider {
+  display: flex;
+  transform: translate(-400px, 0px);
+  animation-name: example;
+  animation-duration: 2s;
+
+}
+
+@keyframes example {
+  from {
+    transform: translate(0px, 0px)
+  }
+
+  to {
+    transform: translate(-400px, 0px)
+  }
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+
+}
+
+button {
+  color: beige;
+  background-color: rgb(97, 51, 51);
+  padding: 2px;
+  border-radius: 40%;
+}
